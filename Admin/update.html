@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form ">
+        <form action="">
+          <h4>Update Stock</h4>
+          <div class="mb-3">
+            <label for="pName" class="form-label">Product Name</label>
+            <input type="pName" class="form-control" id="pName" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Category</label
+            >
+            <select class="form-select" aria-label="Default select example">
+              <option selected >Select Category</option>
+              <option value="1">Building Materials</option>
+              <option value="2">Metal & Reinforcement</option>
+              <option value="3">Fasteners</option>
+              <option value="3">Tools & Equipment</option>
+            </select>
+          </div>
+          <div class="row">
+            <label for="formGroupExampleInput" class="form-label"
+              >Adjustment Type</label
+            >
+            <div class="button d-flex">
+                <!-- this button should link to the stock registration form -->
+              <button type="button" class="btn btn-secondary btn-sm">
+                + Add Stock
+              </button>
+              <button type="button" class="btn btn-secondary btn-sm">
+                - Remove Stock
+              </button>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="Qty" class="form-label">Quantity</label>
+            <input type="text" class="form-control" id="Qty" />
+          </div>
+          <div class="mb-3">
+            <label for="unitPrice" class="form-label">UnitPrice</label>
+            <input type="number" class="form-control" id="unitPrice" />
+          </div>
+          <div class="mb-3">
+            <label for="supplier" class="form-label">Supplier</label>
+            <input type="text" class="form-control" id="supplier" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Notes(Optional)</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+             <button type="button" class="btn btn-secondary btn-md mt-3">
+               Update Stock
+              </button>
+             <button type="button" class="btn btn-secondary btn-md mt-3">
+               cancel
+              </button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>

@@ -10,20 +10,20 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./sales-reg.css" />
+    <link rel="stylesheet" href="./credit.css" />
   </head>
   <body>
     <div class="container">
       <form>
         <h2>NyondoStock Hardware</h2>
-        <h3>Sales Form</h3>
+        <h3>Supplier-Credit Form</h3>
         <div class="mb-3">
-          <label for="saleRep" class="form-label">Sales Representative</label>
+          <label for="saleRep" class="form-label">Supplier name</label>
           <input type="text" class="form-control" id="salesRep" />
         </div>
-        <h4>Customer information</h4>
+
         <div class="mb-3">
-          <label for="customerName" class="form-label">Customer Name</label>
+          <label for="customerName" class="form-label">Supplier Contact</label>
           <input type="text" class="form-control" id="customerName" />
         </div>
         <div class="customer">
@@ -31,15 +31,13 @@
             <label for="inputEmail4" class="form-label">Email</label>
             <input type="email" class="form-control" id="inputEmail4" />
           </div>
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <label for="phone" class="form-label">Phone</label>
             <input type="tel" class="form-control" id="phone" />
-          </div>
+          </div> -->
         </div>
 
-        <h4>Item</h4>
-
-        <label for="product">Product</label>
+        <label for="product">Product Name</label>
         <select class="form-select" aria-label="Default select example">
           <option selected>Choose Item</option>
           <option value="1">Cement</option>
@@ -68,15 +66,15 @@
               <input type="number" class="form-control" id-unique="amount" />
             </div>
             <div class="col-md-6">
-              <label for="saleDate" class="form-label">Sale Date</label>
+              <label for="saleDate" class="form-label"> Date</label>
               <input type="date" class="form-control" id-unique="phone" />
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-primary btn-sm mt-2 float mb-3">
+        <!-- <button type="button" class="btn btn-primary btn-sm mt-2 float mb-3">
           Add item
-        </button>
-        <div class="mt-4">
+        </button> -->
+        <!-- <div class="mt-4">
         <label for="payment">Payment Method</label>
         <select class="form-select" aria-label="Default select example">
           <option selected>Choose payment method</option>
@@ -85,12 +83,29 @@
           <option value="3">Card Payment</option>
           <option value="4">Bank Transfer</option>
         </select>
+        </div> -->
+        <div class="dates">
+          <div class="col-md-6">
+            <label for="saleDate" class="form-label"> Credit Period</label>
+            <input type="date" class="form-control" id-unique="phone" />
+          </div>
+          <div class="col-md-6">
+            <label for="saleDate" class="form-label"> Due Dates </label>
+            <input type="date" class="form-control" id-unique="phone" />
+          </div>
+        </div>
+        <div class="note">
+            <label for="comments">Comments</label><br>
+            <textarea name="comment" id=""></textarea>
         </div>
         <button type="button" class="btn btn-md text-white bg-dark button mt-3">
-          Register Sale
+         Back
         </button>
-        <button type="button" class="btn btn-md text-white bg-dark button mt-3 float">
-          print receipt
+        <button
+          type="button"
+          class="btn btn-md text-white bg-dark button mt-3 float"
+        >
+         Save Credit
         </button>
       </form>
     </div>

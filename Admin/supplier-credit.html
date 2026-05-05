@@ -10,6 +10,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./supplier-credit.css">
   </head>
   <body>
     <div class="page">
@@ -17,16 +18,24 @@
         <h1>NYONDOSTOCK</h1>
         <h4>Supplier Credit</h4>
       </div>
-      <div class="grid">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">Total credit owed:</div>
-            <div class="col">Pending invoices:</div>
-            <div class="col">credit Notes:</div>
-            <div class="col">Overdue Amount:</div>
+      
+        <div class="container text-center grid ">
+          <div class="row ">
+            <div class="col hair">Total credit owed:</div>
+            <div class="col hair">Pending invoices:</div>
+            <div class="col hair">credit Notes:</div>
+            <div class="col hair">Overdue Amount:</div>
           </div>
         </div>
-      </div>
+      
+      <!-- <table table-bordered border-primary>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+      </table> -->
       <!-- As a link -->
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
@@ -68,7 +77,8 @@
           </span>
         </div>
       </nav>
-      <table>
+      <div table-responsive >
+      <table class="table -success-striped -success table-striped table-bordered border-dark">
         <tr>
           <th>supplier credit</th>
           <th>credit limit</th>
@@ -100,15 +110,14 @@
           <td></td>
         </tr>
       </table>
+      </div>
       <div class="buttons">
         <div class="button1">
-          <button type="button" class="btn btn-primary">Primary</button>
-          <input class="btn btn-primary" type="submit" value="Submit" />
+          <button type="submit" class="btn btn-secondary"  value="Submit">Add credit Note</button>
+           <button type="button" class="btn btn-secondary">Record Payment</button>
+        
         </div>
-        <div class="button2">
-          <button type="button" class="btn btn-secondary">Secondary</button>
-          <input class="btn btn-primary" type="submit" value="Submit" />
-        </div>
+        
       </div>
       <div class="last">
     <p>Aging Summary:</p>

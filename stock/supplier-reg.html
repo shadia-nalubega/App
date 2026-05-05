@@ -10,20 +10,20 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./sales-reg.css" />
+    <link rel="stylesheet" href="./track.css" />
   </head>
   <body>
     <div class="container">
       <form>
         <h2>NyondoStock Hardware</h2>
-        <h3>Sales Form</h3>
+        <h3>Supplier Registration<br> Form</h3>
         <div class="mb-3">
-          <label for="saleRep" class="form-label">Sales Representative</label>
+          <label for="saleRep" class="form-label">Supplier Name</label>
           <input type="text" class="form-control" id="salesRep" />
         </div>
-        <h4>Customer information</h4>
+        
         <div class="mb-3">
-          <label for="customerName" class="form-label">Customer Name</label>
+          <label for="customerName" class="form-label">Phone</label>
           <input type="text" class="form-control" id="customerName" />
         </div>
         <div class="customer">
@@ -31,10 +31,7 @@
             <label for="inputEmail4" class="form-label">Email</label>
             <input type="email" class="form-control" id="inputEmail4" />
           </div>
-          <div class="col-md-6">
-            <label for="phone" class="form-label">Phone</label>
-            <input type="tel" class="form-control" id="phone" />
-          </div>
+          
         </div>
 
         <h4>Item</h4>
@@ -68,7 +65,7 @@
               <input type="number" class="form-control" id-unique="amount" />
             </div>
             <div class="col-md-6">
-              <label for="saleDate" class="form-label">Sale Date</label>
+              <label for="saleDate" class="form-label">Date</label>
               <input type="date" class="form-control" id-unique="phone" />
             </div>
           </div>
@@ -87,10 +84,10 @@
         </select>
         </div>
         <button type="button" class="btn btn-md text-white bg-dark button mt-3">
-          Register Sale
+          Register supplier
         </button>
         <button type="button" class="btn btn-md text-white bg-dark button mt-3 float">
-          print receipt
+          Back 
         </button>
       </form>
     </div>

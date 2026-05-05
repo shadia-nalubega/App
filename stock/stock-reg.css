@@ -49,4 +49,70 @@ h3{
 .col{
     border: 1px grey solid;
 }
+.form{
+    width: 70%;
+    margin: 20px 0px 20px 200px;
+    padding: 30px;
+    border:1px solid grey;
+    border-radius: 2px;
+    font-size: 15px;
+    height: 60%;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.card{
+    width: 70%;
+    margin: 20px 0px 20px 200px;
+    padding: 20px;
+    border:1px solid grey;
+    border-radius: 2px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+} 
+.box{
+    display:flex;
+    width: 70%;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+     margin: 20px 200px 20px 200px;
+     padding: 0pxpx;
+     gap:10px;
+}
+.page{
+    width: 90%;
+    border:1px solid grey;
+    margin: 10px;
+    /* box-shadow: 10px rgba(0, 0, white 0.3 ); */
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+   
+}
+ textarea,input[type],
+input[textarea]
+{
+    height: 30px;
+    font-size: 13px;
+    
+    border-radius: 5px;
+}
+h3,h5{
+    text-align: center;
+}
+.button{
+    justify-content: space-between;
+}
+label{
+   font-weight: 500;
+   font-size: 15px;
+}
+.card1{
+   
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border:1px solid grey;
+    border-radius: 2px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+thead{
+    font-size: 15px;
+}
+
+
 
